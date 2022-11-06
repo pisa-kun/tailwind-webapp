@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.easy-button{
+    padding: 8px 16px;
+    background-color: #b33e5c;
+    color:white;
+    border-radius: 4px;
+    font:bold;
+    margin-left:40px;
+}
+
+.easy-button:hover{
+    background-color: red;
+}
+
+.btn {
+    @apply bg-red-600 hover:bg-red-900 text-white font-bold py-2 px-4 rounded ml-10;
+}
