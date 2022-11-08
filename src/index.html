@@ -5,15 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
   <title>TailWind入門</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-  <div class="border border-r-emerald-400 px-16 py-16 my-10">
-    <h1 class="lg:text-7xl font-bold text-3xl md:text-blue-400 lg:text-red-400 xl:text-green-400">TailWind入門</h1>
-  </div>
-  <div class="border border-r-emerald-400 px-16 py-16 my-10">
-    <h1 class="lg:text-7xl font-bold">TailWind入門</h1>
-  </div>
+<body class="font-poppins bg-body text-white">
+  <header class="py-6">
+    <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg:px-24 w-full">
+      <div class="text-lg font-bold">TomTomPurin.com</div>
+      <div class="space-x-12 hidden md:flex items-center">
+        <a href="#home" class="hover:text-natsuha transition-all duration-300 whitespace-nowrap">ホーム</a>
+        <a href="#portfolio" class="hover:text-natsuha transition-all duration-300 whitespace-nowrap">ポートフォリオ</a>
+        <a href="#clients" class="hover:text-natsuha transition-all duration-300 whitespace-nowrap">お客様</a>
+        <a href="#contact">
+          <button class="px-6 py-2 bg-theme font-bold rounded-lg hover:bg-natsuha transition-all duration-300 whitespace-nowrap">お問い合わせ</button></a>
+      </div>
+      <div class="md:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
 </body>
-<button class="easy-button">ボタン</button>
-<button class="btn">ボタン</button>
 </html>
