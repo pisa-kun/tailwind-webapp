@@ -8,6 +8,7 @@ module.exports = {
         natsuha: "#b33e5c",
         "selected-text": "#A3A3FF",
         theme: "#783b4a",
+        secondary: "#9e888e",
       },
     },
     fontFamily: {
