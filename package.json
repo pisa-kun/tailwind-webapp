@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build": "next build",
-    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "tailwindcss build -i ./src/input.css -o ./dist/output.css",
     "lint": "next lint"
   },
   "dependencies": {
