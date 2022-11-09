@@ -13,6 +13,8 @@ module.exports = {
         golang: "#4285F4",
         aws: "#FF9900",
         windows: "#0078D7",
+        input: "#30282a",
+        inputBorder: "#635357",
       },
     },
     fontFamily: {
