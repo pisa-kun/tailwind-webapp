@@ -28,9 +28,18 @@ body {
     @apply text-3xl font-bold;
 }
 
+.secondary-title:hover {
+    @apply w-full mx-auto px-16 lg:px-32 before:bg-natsuha text-natsuha scale-125 transition-all duration-1000
+}
+
 .secondary-title::before{
     content: "";
-    @apply block w-12 h-2 bg-theme rounded-full mb-1;
+    @apply block w-12 h-2 bg-theme rounded-full mb-1 ;
+}
+
+.secondary-title::after{
+    content: "";
+    @apply block w-12 h-2 bg-theme rounded-full mb-1 opacity-0;
 }
 
 .section-paragraph {
@@ -38,5 +47,5 @@ body {
 }
 
 .badge{
-    @apply px-4 py-2 text-sm bg-badge;
+    @apply px-4 py-2 text-sm bg-badge hover:bg-natsuha transition-all duration-300;
 }
