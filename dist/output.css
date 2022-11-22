@@ -547,10 +547,6 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .right-6 {
   right: 1.5rem;
 }
@@ -645,16 +641,8 @@ video {
   width: 83.333333%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .max-w-xl {
   max-width: 36rem;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .cursor-pointer {
@@ -756,16 +744,6 @@ video {
   background-color: rgb(48 40 42 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(158 136 142 / var(--tw-bg-opacity));
@@ -778,18 +756,6 @@ video {
 
 .p-16 {
   padding: 4rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .p-1 {
@@ -829,15 +795,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
 }
 
 .text-center {
@@ -924,11 +881,6 @@ video {
 .text-yellow-200 {
   --tw-text-opacity: 1;
   color: rgb(254 240 138 / var(--tw-text-opacity));
-}
-
-.text-natsuha {
-  --tw-text-opacity: 1;
-  color: rgb(179 62 92 / var(--tw-text-opacity));
 }
 
 .transition-all {
@@ -1064,6 +1016,53 @@ body {
   background-color: rgb(179 62 92 / var(--tw-bg-opacity));
 }
 
+#page_top{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1073,6 +1072,11 @@ body {
 .hover\:border-natsuha:hover {
   --tw-border-opacity: 1;
   border-color: rgb(179 62 92 / var(--tw-border-opacity));
+}
+
+.hover\:bg-theme:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 59 74 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-natsuha:hover {
